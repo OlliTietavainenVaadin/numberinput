@@ -12,10 +12,7 @@ import javax.management.Notification;
 public class NumberInput extends Component {
 
     public NumberInput() {
-        this.getElement().synchronizeProperty("value", "input")
-            .addSynchronizedPropertyEvent("keydown")
-            .addSynchronizedPropertyEvent("blur")
-            .addSynchronizedPropertyEvent("change");
+        this.getElement().synchronizeProperty("value", "value-changed");
     }
 
     public void setValue(Double value) {
