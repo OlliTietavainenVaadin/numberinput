@@ -5,7 +5,7 @@
 
     <groupId>org.vaadin.olli</groupId>
     <artifactId>numberinput</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
     <name>NumberInput</name>
     <description>Integration of number-input for Vaadin 10</description>
 
