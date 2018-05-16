@@ -23,5 +23,9 @@ public class DemoView extends Div {
         add(new Button("Check value from server side", e -> {
             Notification.show("" + numberInput.getValue(), 5000, Notification.Position.MIDDLE);
         }));
+        numberInput.addValueChangeListener(e -> {
+           Notification.show("Value changed", 5000, Notification.Position.BOTTOM_CENTER);
+        });
+
     }
 }
